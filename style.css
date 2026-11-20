@@ -58,6 +58,28 @@ h2+ p {
 }
 p {
   text-align: left;
+  /* Center both headings */
+h1, h2 {
+  color: #5b315f;
+  text-align: center;
+}
+
+/* Keep paragraphs left-aligned */
+p {
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Align links with paragraphs */
+a {
+  display: block;
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
   max-width: 520px;
   margin-left: auto;
   margin-right: auto;
