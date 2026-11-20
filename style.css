@@ -80,6 +80,29 @@ a {
   margin-left: auto;
   margin-right: auto;
 }
+
+  /* Keep headings centered */
+h1, h2 {
+  text-align: center;
+  color: #5b315f;
+}
+
+/* Keep paragraphs aligned left within the page */
+p {
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep links and button aligned with paragraphs */
+a {
+  display: block;
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
   
   margin-left: auto;
   margin-right: auto;
