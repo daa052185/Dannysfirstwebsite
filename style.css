@@ -1,32 +1,36 @@
-
+/* Main website styling */
 body {
   background-color: #faf5ef;
   font-family: Arial, sans-serif;
   color: #34251f;
   margin: 0;
-}
-
-header {
-  background-color: #5b315f;
-  color: white;
   text-align: center;
-  padding: 40px 20px;
 }
 
-main {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-}
-
+/* Headings */
 h1, h2 {
   color: #5b315f;
+  text-align: center;
 }
 
-li {
-  margin-bottom: 10px;
+/* Paragraphs */
+p {
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Links */
+a {
+  display: block;
+  text-align: left;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Me button */
 button {
   background-color: #5b315f;
   color: white;
@@ -35,75 +39,27 @@ button {
   border-radius: 6px;
   cursor: pointer;
 }
-body {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  background-color: #faf5ef;
-}
 
-main {
-  max-width: 600px;
-  margin: 30px auto;
-  padding: 20px;
-}
-
+/* Lists */
 ul {
   list-style-position: inside;
   padding-left: 0;
 }
-h2+ p {
-  max-width: 520px;
-  margin: 0 auto;
-  text-align: left;
+
+li {
+  margin-bottom: 10px;
 }
-p {
-  text-align: left;
-  /* Center both headings */
-h1, h2 {
-  color: #5b315f;
+
+/* Header */
+header {
+  background-color: #5b315f;
+  color: white;
   text-align: center;
+  padding: 40px 20px;
 }
 
-/* Keep paragraphs left-aligned */
-p {
-  text-align: left;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Align links with paragraphs */
-a {
-  display: block;
-  text-align: left;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-  /* Keep headings centered */
-h1, h2 {
-  text-align: center;
-  color: #5b315f;
-}
-
-/* Keep paragraphs aligned left within the page */
-p {
-  text-align: left;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-/* Keep links and button aligned with paragraphs */
-a {
-  display: block;
-  text-align: left;
-  max-width: 520px;
-  margin-left: auto;
-  margin-right: auto;
-}
-  
-  margin-left: auto;
-  margin-right: auto;
-}
+/* Main content */
+main {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
